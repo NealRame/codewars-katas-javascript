@@ -1,0 +1,1 @@
+NODE_PATH="$PWD/katas" mocha $*

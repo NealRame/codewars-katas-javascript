@@ -1,0 +1,22 @@
+{
+  "name": "codewars-kata",
+  "version": "1.0.0",
+  "description": "Katas from codewars.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "$PWD/Scripts/tests.sh"
+  },
+  "keywords": [
+    "codewars",
+    "kata"
+  ],
+  "author": "Julien Graziano",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.1.3"
+	},
+	"mocha": {
+		"spec": "tests/*_spec.js"
+	}
+}
